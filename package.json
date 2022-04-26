@@ -17,7 +17,7 @@
     "build:linux": "npm run build && electron-builder --linux --config"
   },
   "dependencies": {
-    "@electron-toolkit/preload": "^1.0.1",
+    "@electron-toolkit/preload": "^1.0.2",
     "@electron-toolkit/utils": "^1.0.2"
   },
   "devDependencies": {

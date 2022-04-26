@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Versions from './components/Versions.vue'
+import Versions from '@renderer/components/Versions.vue'
 </script>
 
 <template>

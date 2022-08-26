@@ -1,11 +1,18 @@
 # electron-app
 
+![electron version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron)
+![electron vite version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron-vite)
+![electron builder version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron-builder)
+![vite version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/vite)
+![typescript version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/vue)
+![typescript version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/typescript)
+
 > An Electron application with Vue3 and TypesSript
 
 ## Features
 
 - **📁 scaffolding - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**, scaffolding your project quickly
-- **🚀 build - [electron-vite](https://github.com/alex8088/electron-vite)**, fast and easy-to-use build tool integrated with Vite
+- **🚀 build - [electron-vite](https://github.com/alex8088/electron-vite)**, fast and easy-to-use build tool integrated with Vite 3
 - **💡 development - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**, useful API, help you develop
 - **📦 pack - [electron-builder](https://www.electron.build)**, preset common configuration, easy to pack
 

@@ -19,8 +19,8 @@
 ---
 
 - **📁 创建 - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**，快速构建项目
-- **🚀 构建 - [electron-vite](https://github.com/alex8088/electron-vite)**，与Vite集成，快速且简单易用的构建工具
-- **💡 开发 - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**，提供丰富实用API，辅助开发
+- **🚀 构建 - [electron-vite](https://github.com/alex8088/electron-vite)**，与 Vite 集成，快速且简单易用的构建工具
+- **💡 开发 - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**，提供丰富实用 API，辅助开发
 - **📦 打包 - [electron-builder](https://www.electron.build)**，预置打包配置，轻松完成打包
 
 ## Recommended IDE Setup

@@ -11,27 +11,26 @@
 
 ## Features
 
-- **📁 Scaffolding - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**, scaffolding your project quickly
-  - Currently supported framework: `Vue`, `React`, `Svelte`, `Solid`
-- **🚀 Build - [electron-vite](https://github.com/alex8088/electron-vite)**, fast and easy-to-use build tool integrated with Vite 3
-  - [Fast HMR](https://evite.netlify.app/guide/hmr-in-renderer.html)
-  - [Hot Reloading](https://evite.netlify.app/guide/hot-reloading.html)
-  - [Easy to Debug](https://evite.netlify.app/guide/debugging.html)
-  - [Source code protection](https://evite.netlify.app/guide/source-code-protection.html) (compile to V8 bytecode to protect source code)
-- **💡 Development - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**, useful API, help you develop
-- **📦 Pack - [electron-builder](https://www.electron.build)**, pre-configured to pack your app
+- 💡 Optimize asset handling
+- 🚀 Fast HMR for renderer processes
+- 🔥 Hot reloading for main process and preload scripts
+- 🔌 Easy to debug
+- 🔒 Compile to v8 bytecode to protect source code
 
----
+## Getting Started
 
-- **📁 创建 - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**，快速构建项目
-  - 目前支持的框架： `Vue`, `React`, `Svelte`, `Solid`
-- **🚀 构建 - [electron-vite](https://github.com/alex8088/electron-vite)**，与 Vite 集成，快速且简单易用的构建工具
-  - [热替换 HMR](https://cn-evite.netlify.app/guide/hmr-in-renderer.html)
-  - [热重载](https://cn-evite.netlify.app/guide/hot-reloading.html)
-  - [易于调试](https://cn-evite.netlify.app/guide/debugging.html)
-  - [源代码保护](https://cn-evite.netlify.app/guide/source-code-protection.html)（编译为 V8 字节码以保护源代码）
-- **💡 开发 - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**，提供丰富实用 API，辅助开发
-- **📦 打包 - [electron-builder](https://www.electron.build)**，预置打包配置，轻松完成打包
+Read [documentation](https://electron-vite.org/) for more detail.
+
+- [Configuring](https://electron-vite.org/config/)
+- [Development](https://electron-vite.org/guide/dev.html)
+- [Asset Handling](https://electron-vite.org/guide/assets.html)
+- [HMR](https://electron-vite.org/guide/hmr.html) & [Hot Reloading](https://electron-vite.org/guide/hot-reloading.html)
+- [Debugging](https://electron-vite.org/guide/debugging.html)
+- [Source code protection](https://electron-vite.org/guide/source-code-protection.html)
+- [Distribution](https://electron-vite.org/guide/distribution.html)
+- [Troubleshooting](https://electron-vite.org/guide/troubleshooting.html)
+
+You can also use the [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron) tool to scaffold your project for other frameworks (e.g. `React`, `Svelte` or `Solid`).
 
 ## Recommended IDE Setup
 
@@ -63,3 +62,9 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+## Examples
+
+- [electron-vite-bytecode-example](https://github.com/alex8088/electron-vite-bytecode-example), source code protection
+- [electron-vite-decorator-example](https://github.com/alex8088/electron-vite-decorator-example), typescipt decorator
+- [electron-vite-worker-example](https://github.com/alex8088/electron-vite-worker-example), worker and fork

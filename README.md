@@ -1,6 +1,6 @@
 <h1 align="center">electron-app</h1>
 
-<p align="center">An Electron application with Vue3 and TypesSript</p>
+<p align="center">An Electron application with Vue3 and TypeScript</p>
 
 <p align="center">
 <img src="https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron" alt="electron-version">
@@ -25,7 +25,7 @@
 
 ## Getting Started
 
-Read [documentation](https://electron-vite.org/) for more detail.
+Read [documentation](https://electron-vite.org/) for more details.
 
 - [Configuring](https://electron-vite.org/config/)
 - [Development](https://electron-vite.org/guide/dev.html)
